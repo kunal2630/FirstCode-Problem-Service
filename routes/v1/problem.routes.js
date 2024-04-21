@@ -6,7 +6,7 @@ problemRouter.get("/ping",problemController.pingProblem);
 
 problemRouter.get('/:id', problemController.getProblem);
 
-problemRouter.get('/', problemController.getProblems);
+problemRouter.get('/', problemController.getAllProblems);
 
 problemRouter.post('/', problemController.addProblem);
 
